@@ -1,0 +1,81 @@
+header
+{
+    background-color: skyblue;
+    text-align: center;
+}
+
+hr
+{
+    margin: 10px;
+}
+
+header > h1
+{
+    font-weight: bold;
+}
+
+.small
+{
+    width: 230px;
+    height: 200px;
+}
+
+.fotos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.fotos > img:hover
+{
+    opacity: 0.5;
+}
+
+section
+{
+    margin-top: 2vh;
+}
+
+nav
+{
+    border-top: 2.2vh solid blue;
+    border-bottom: 2.2vh solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: -30vw;
+    gap: 10px;
+}
+
+nav > h1:hover
+{
+    font-weight: bold;
+    background-color: skyblue;
+}
+
+.fondo
+{
+    color: blue;
+    background-image: url("img/valencia_antigua.jpg");
+    width: 60vw;
+    border: 2px solid black;
+
+}
+
+.final
+{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final > img
+{
+    width: 20vw;
+    height: 23vh;
+}
